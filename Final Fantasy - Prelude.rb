@@ -80,7 +80,9 @@ in_thread do
     sample :drum_heavy_kick, amp: 2
     sleep 0.5
     sample :drum_cymbal_closed, amp: 0.5
-    sleep 0.5
+    sleep 0.25
+    sample :drum_cymbal_soft, amp: 0.5
+    sleep 0.25
     sample :drum_cymbal_soft, amp: 0.5
     sleep 0.5
     sample :drum_cymbal_closed, amp: 0.5
